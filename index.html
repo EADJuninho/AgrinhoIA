@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>AgroFuturo</h1>
+
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#agrofloresta">Agrofloresta</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <section class="banner">
+            <div class="banner-texto">
+                <h2>Agro Forte, Futuro Sustentável</h2>
+                <p>
+                    Equilíbrio entre produção agrícola e meio ambiente.
+                </p>
+
+                <button id="temaBtn">
+                    Alterar Tema
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+                O agro sustentável busca produzir alimentos sem prejudicar o meio ambiente,
+                utilizando tecnologias modernas e práticas conscientes.
+            </p>
+        </section>
+
+        <section id="tecnologia" class="cards-section">
+
+            <h2>Tecnologia no Campo</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🚁 Drones</h3>
+                    <p>
+                        Monitoramento das plantações em tempo real.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>💧 Irrigação Inteligente</h3>
+                    <p>
+                        Economia de água e aumento da produtividade.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>☀️ Energia Solar</h3>
+                    <p>
+                        Energia limpa para propriedades rurais.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="agrofloresta" class="agrofloresta">
+
+            <div class="texto">
+                <h2>Agrofloresta</h2>
+
+                <p>
+                    A agrofloresta integra árvores, cultivos agrícolas e preservação
+                    ambiental, promovendo equilíbrio ecológico e sustentabilidade.
+                </p>
+            </div>
+
+            <img src="https://picsum.photos/500/300?nature" alt="Agrofloresta">
+
+        </section>
+
+        <section id="quiz" class="quiz">
+
+            <h2>Quiz Sustentável</h2>
+
+            <p>
+                Qual dessas opções ajuda o meio ambiente?
+            </p>
+
+            <button onclick="respostaCorreta()">
+                Agrofloresta
+            </button>
+
+            <button onclick="respostaErrada()">
+                Desmatamento
+            </button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2026 - Agro Forte | Futuro Sustentável
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
